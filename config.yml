@@ -1,0 +1,57 @@
+#nome do menu do /lpergaminhos
+menu-nome: '&ePergaminhos'
+#permissão para utilizar o comando /darpergaminho
+darpergaminho-permissao: 'rpergaminhos.darpergaminho'
+
+pergaminhos:
+  #nome do pergaminho encantado
+  nome: '&ePergaminho'
+
+mensagens:
+  console-erro: '&cApenas jogadores podem executar este comando.'
+  permissao-erro: '&cApenas membros da equipe podem executar este comando.'
+  comando-incorreto: '&cSintaxe incorreta, use /darpergaminho <pergaminho> <quantia> <jogador>.'
+  numero-invalido: '&cO número &7@numero &cnão é valido.'
+  jogador-invalido: '&cO jogador &7@jogador &cnão foi encontrado.'
+  pergaminho-enviado: '&aVocê deu &7@quantia &apergaminho(s) de &7@pergaminho &apara o jogador &7@jogador&a.'
+  pergaminho-enviado-todos: '&aVocê deu &7@quantia &apergaminho(s) de cada tipo para o jogador &7@jogador&a.'
+  pergaminho-invalido: '&cEste pergaminho não foi encontrado, Lista de pergaminhos: &7@pergaminhos&c.'
+  ja-encontrado: '&cEste item já possui este encantamento.'
+  invisibilidade-acabou: '&eSeu tempo de invisibilidade acabou, aguarde &7@cooldown &eminutos usar esta habilidade novamente.'
+  invisibilidade-ativada: '&aVocê sua habilidade e está invisivel por &7@duracao &asegundos.'
+  invisibilidade-cooldown: '&cVocê já usou está habilidade aguarde, @cooldown para usar essa habilidade novamente.'
+  vampiridade-sugada: '&eVocê sugou &7@vida &ecorações de seu inimigo.'
+  escudo-bloqueado: '&eVocê bloqueou o dano de seu inimigo.'
+
+#as configurações a seguir já estão balanciadas, não recomendamos mexer.
+viking:
+  #duração da poção de força em segundos
+  forca-duracao: 5
+  #nivel da poção de força (Obs:. Começa em 0, ou seja 0 = Força 1, 1 = Força 2)
+  forca-nivel: 1
+
+vampiridade:
+  #chance em % de roubar a vida do inimigo (Obs:. Não coloque %)
+  chance: 15
+  #corações que vai recuperar quando roubar a vida de outro jogador
+  recuperacao: 4
+  
+invisibilidade:
+  #tempo para ficar invisivel de novo em minutos
+  cooldown: 3
+  #duracao que o jogador ficará invisivel em segundos
+  duracao: 5
+
+aspecto-congelante:
+  #chance em % de congelar o inimigo (Obs:. Não coloque %)
+  chance: 5
+  #duração que o jogador ficará congelado em segundos
+  duracao: 2
+  
+aspecto-do-trovao:
+  #chance em % de spawnar um raio no inimigo (Obs:. Não coloque %)
+  chance: 10
+  
+escudo:
+  #chance em % de bloquear o dano do inimigo (Obs:. Não coloque %)
+  chance: 15

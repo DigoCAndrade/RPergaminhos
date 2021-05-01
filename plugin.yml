@@ -1,0 +1,11 @@
+name: RPergaminhos
+main: rodrigo.rpergaminhos.Main
+version: 1.0
+author: zDigoGames_
+website: rodrigoandrade.com
+description: Um plugin de pergaminhos inovador com varios novos pergaminhos
+commands:
+  darpergaminho:
+    description: Envia determinado pergaminho para um jogador
+  pergaminhos:
+    description: Obtem a lista de pergaminhos em GUI
